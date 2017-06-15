@@ -32,6 +32,7 @@ import com.twitter.penguin.korean.tokenizer.Sentence;
 import static org.junit.Assert.assertEquals;
 
 public class TwitterKoreanProcessorJavaTest {
+
   @Test
   public void testNormalize() throws Exception {
     assertEquals("힘들겠습니다 그래요ㅋㅋ", TwitterKoreanProcessorJava.normalize("힘들겟씀다 그래욬ㅋㅋㅋ"));
